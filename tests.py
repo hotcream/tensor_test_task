@@ -1,8 +1,6 @@
 from YandexPages import SearchHelper
 import time
-import pytest
 from selenium.webdriver.common.keys import Keys
-# Установите pytest-html а затем запустите тест с параметром --html=pytest_report.html
 
 def test_yandex_search(browser):
     '''Первый тест'''
